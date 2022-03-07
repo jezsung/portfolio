@@ -1,0 +1,16 @@
+.posts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 16px;
+  padding: 16px;
+}
+
+.post {
+  flex-basis: 326px;
+}
+
+.post .title {
+  margin-bottom: 8px;
+}
