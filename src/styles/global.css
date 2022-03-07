@@ -50,6 +50,10 @@ nav .links * {
   color: white;
 }
 
+nav .links .active {
+  color: yellow;
+}
+
 main {
   background-color: slategray;
 }
