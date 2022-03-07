@@ -1,0 +1,21 @@
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 16px;
+  max-width: 440px;
+}
+
+.project img {
+  width: 440px;
+  height: 326px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.project .title {
+  margin-bottom: 8px;
+}

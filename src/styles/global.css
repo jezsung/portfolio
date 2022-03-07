@@ -49,3 +49,7 @@ nav .links {
 nav .links * {
   color: white;
 }
+
+main {
+  background-color: slategray;
+}
