@@ -1,9 +1,11 @@
 {
   "scripts": {
     "format": "prettier --write .",
+    "build:css": "cleancss src/style.css -o dist/style.css",
     "copy:html": "copyfiles src/index.html src/pages/*.html dist"
   },
   "devDependencies": {
+    "clean-css-cli": "^5.5.2",
     "copyfiles": "^2.4.1",
     "prettier": "^2.5.1"
   }
