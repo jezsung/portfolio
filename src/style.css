@@ -11,6 +11,14 @@ a:hover {
   border-bottom: 1px solid white;
 }
 
+html[dark-mode] {
+  filter: invert(100%);
+}
+
+html[dark-mode] img {
+  filter: invert(100%);
+}
+
 header {
   position: relative;
   background-color: midnightblue;
@@ -20,6 +28,15 @@ header {
 header #menu {
   position: absolute;
   left: 16px;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: white;
+  cursor: pointer;
+}
+
+header #dark-mode {
+  position: absolute;
+  right: 16px;
   top: 50%;
   transform: translate(0, -50%);
   color: white;

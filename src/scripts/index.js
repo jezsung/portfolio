@@ -6,3 +6,9 @@ navElem.hidden = true;
 menuButton.addEventListener('click', (e) => {
   navElem.hidden = !navElem.hidden;
 });
+
+const darkModeSwitcher = document.getElementById('dark-mode');
+
+darkModeSwitcher.addEventListener('click', (e) => {
+  document.documentElement.toggleAttribute('dark-mode');
+});
