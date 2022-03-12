@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "copy:html": "copyfiles src/index.html src/pages/*.html dist"
   },
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "prettier": "^2.5.1"
   }
 }
