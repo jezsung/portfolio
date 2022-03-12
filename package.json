@@ -3,7 +3,7 @@
     "format": "prettier --write .",
     "minify-images": "imagemin src/images/* --out-dir=dist/images",
     "build:css": "cleancss src/style.css -o dist/style.css",
-    "build:js": "mkdir -p dist/scripts && uglifyjs src/scripts/index.js --mangle --compress -o dist/scripts/index.js",
+    "build:js": "mkdirp dist/scripts && uglifyjs src/scripts/index.js --mangle --compress -o dist/scripts/index.js",
     "copy:html": "copyfiles -u 1 src/index.html src/pages/*.html dist",
     "build:all": "npm run minify-images && npm run build:css && npm run build:js && npm run copy:html"
   },
@@ -11,6 +11,7 @@
     "clean-css-cli": "^5.5.2",
     "copyfiles": "^2.4.1",
     "imagemin-cli": "^7.0.0",
+    "mkdirp": "^1.0.4",
     "prettier": "^2.5.1",
     "uglify-js": "^3.15.3"
   }
