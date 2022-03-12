@@ -2,11 +2,13 @@
   "scripts": {
     "format": "prettier --write .",
     "build:css": "cleancss src/style.css -o dist/style.css",
+    "build:js": "mkdir -p dist/scripts && uglifyjs src/scripts/index.js --mangle --compress -o dist/scripts/index.js",
     "copy:html": "copyfiles -u 1 src/index.html src/pages/*.html dist"
   },
   "devDependencies": {
     "clean-css-cli": "^5.5.2",
     "copyfiles": "^2.4.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "uglify-js": "^3.15.3"
   }
 }
