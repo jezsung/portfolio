@@ -31,3 +31,31 @@ header nav ul {
 header a {
   color: black;
 }
+
+.hero-banner {
+  position: relative;
+  max-height: 512px;
+}
+
+.hero-banner img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 512px;
+}
+
+.hero-banner .text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 16px;
+  margin: 32px;
+  background-color: #00000033;
+}
+
+.hero-banner .title {
+  margin-bottom: 8px;
+}
+
+.hero-banner .subtitle {
+  font-size: 18px;
+}
