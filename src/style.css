@@ -102,3 +102,16 @@ h1 {
 p {
   margin-bottom: 16px;
 }
+
+img {
+  height: 256px;
+}
+
+figure {
+  margin-bottom: 16px;
+}
+
+figcaption {
+  font-size: 12px;
+  color: #666;
+}
