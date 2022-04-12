@@ -11,6 +11,11 @@
   max-width: 1440px;
 }
 
+.logo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
