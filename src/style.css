@@ -115,3 +115,45 @@ figcaption {
   font-size: 12px;
   color: #666;
 }
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 16px;
+  justify-content: center;
+}
+
+.post {
+  justify-content: center;
+  column-gap: 16px;
+  margin: 4px;
+  align-items: stretch;
+  margin-bottom: 16px;
+  flex-basis: 440px;
+}
+
+.post img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.post .title {
+  margin-bottom: 16px;
+}
+
+.post .summary {
+  margin-bottom: 16px;
+}
+
+.post .publish-date {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.post .author {
+  font-size: 14px;
+  color: #666;
+}
