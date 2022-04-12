@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML and CSS Basics</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">JH</div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about-me.html">About Me</a></li>
+          <li><a href="contact-me.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="author">Jaesung Hong</div>
+      <div class="publish-date">03-10-2022</div>
+      <img src="../images/code.jpg" alt="Code" />
+      <h1>HTML and CSS Basics</h1>
+      <img src="../images/html.png" alt="HTML Logo" />
+      <h3>What is HTML?</h3>
+      <p>
+        Hyper Text Markup Language(HTML) is a markup language for building user
+        interfaces of websites.
+      </p>
+      <h3>What are HTML tags?</h3>
+      <p>
+        Tags mark the start and the end of an HTML element. Each tag has its own
+        name and the name is enclosed by angle brackets. For example, the h1 tag
+        marks the start with enclosing angle brackets, <code>h1</code>, and
+        marks the end with enclosing angle brackets and a backslash,
+        <code>h1</code>. If a backslash comes after the name of the tag—such as
+        <code>br</code> and <code>hr</code>—, the tag is a self-closing tag and
+        it does not require a separate closing tag.
+      </p>
+      <h3>What are HTML elements?</h3>
+      <p>
+        HTML elements consist of tags, attributes, and optional content inside
+        of a start tag and an end tag. For example, an <code>h1</code> element
+        could look like below.
+      </p>
+      <pre>&#60;h1 class="title"&#62;Hello World!&#60;/h1&#62;</pre>
+      <p>
+        The element has a start and an end tag, a class attribute with the value
+        title, and the content Hello World! inside of the tags. Browsers show
+        HTML elements with predefined formatting standards.
+      </p>
+      <h3>What are HTML attributes?</h3>
+      <p>
+        HTML attributes change the behavior of certain elements or work as an
+        identifier to be referenced in CSS and Javascript.
+      </p>
+      <h3>What are inline elements?</h3>
+      <p>
+        Inline elements do not shift the content after the elements. Inline
+        elements are useful when you only want to style a certain part of the
+        text. For example, the <code>i</code> element can make a text style
+        italic without introducing a new line.
+      </p>
+      <pre>
+&#60;div&#62;
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eligendi blanditiis sequi nam vel, pariatur maiores minima ad! Libero quasi odit sit maiores vel ipsam rerum eveniet soluta aut porro.
+&#60;/div&#62;
+</pre
+      >
+      <h3>What are block elements?</h3>
+      <p>
+        As opposed to inline elements, block elements introduce a new line. The
+        most commonly used block element is the <code>div</code> element. If a
+        <code>div</code> element gets inserted after another
+        <code>div</code> element, the content of the former
+        <code>div</code> element will appear in a new line instead of being
+        inserted after the content of the latter <code>div</code> element.
+      </p>
+      <pre>
+&#60;div&#62;Hello World!&#60;/div&#62;
+&#60;div&#62;This will appear in a new line.&#60;/div&#62;</pre
+      >
+      <img src="../images/css.png" alt="CSS Logo" />
+      <h3>What is CSS rule?</h3>
+      <p>
+        Cascading Style Sheets(CSS) styles the linked HTML document by sets of
+        properties, and values and applies them to the elements selected by
+        selectors.
+      </p>
+      <h3>What are CSS selectors?</h3>
+      <p>
+        CSS selectors apply a set of properties to only the selected HTML
+        elements. CSS selectors can select HTML elements by the name of the
+        class, id, and relationships with other elements.
+      </p>
+      <h3>What are CSS values?</h3>
+      <p>
+        CSS values are applied to CSS properties and adjust the color values,
+        amount of padding, etc.
+      </p>
+      <p class="references">
+        Source. (n.d.). HTML. Retrieved April 12, 2022.
+        https://en.wikipedia.org/wiki/HTML
+        <br />
+        Source. (n.d.). Cascading Style Sheets (CSS). Retrieved April 12, 2022.
+        https://en.wikipedia.org/wiki/CSS
+      </p>
+    </main>
+  </body>
+</html>

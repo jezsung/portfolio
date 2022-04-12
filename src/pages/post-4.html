@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS, and Javascript: Separation of Concerns?</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">JH</div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about-me.html">About Me</a></li>
+          <li><a href="contact-me.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="author">Jaesung Hong</div>
+      <div class="publish-date">04-12-2022</div>
+      <img src="../images/code-2.jpg" alt="Code" />
+      <h1>HTML, CSS, and Javascript: Separation of Concerns?</h1>
+      <p>
+        Separation of Concerns(SOC) is one of the popular design principles in
+        software engineering. The basic idea behind SOC is that there must be
+        one thing—one piece of code—for each specific problem. HTML, CSS, and
+        Javascript are core components of modern websites. The following shows
+        what each of them takes care of:
+      </p>
+      <ul>
+        <li>HTML: Structures elements</li>
+        <li>CSS: Styles elements</li>
+        <li>Javascript: Adds logic to elements</li>
+      </ul>
+      <p>
+        At first, HTML, CSS, and Javascript fit well into the idea of SOC.
+        Developers would use HTML files for structuring a website, CSS for
+        styling, and Javascript for handling dynamic behaviors. But is it really
+        the best way of making websites?
+      </p>
+      <p>
+        The biggest downside of making websites with HTML, CSS, and Javascript
+        is that it decreases cohesiveness. Even if HTML, CSS, and Javascript
+        consist of a website, it is impossible to tell which one does which by
+        looking at one file. Developers must keep going back and forth to
+        multiple files to grab the overall image of the website.
+      </p>
+      <p>
+        Naming is also a problem. Since the files are separated, referring from
+        one file to another is required. Therefore, developers have to think of
+        a massive amount of variable names to avoid naming conflict. Coming up
+        with good names is getting harder as development goes, it eventually
+        becomes the major issue of slowing down the development process.
+      </p>
+      <img src="../images/react.png" alt="React.js" />
+      <p>
+        React.js solves this problem by introducing a new syntax called JSX
+        which is a combination of HTML and Javascript. Instead of writing HTML
+        and Javascript in separate files, React.js allows developers to write
+        code in one file in JSX format. How about CSS? React.js does not handle
+        CSS natively, but third-party libraries do the job. Styled-components or
+        Tailwind make it possible to integrate CSS to JSX files.
+      </p>
+      <p>
+        Developers are moving to the latest libraries such as React.js and
+        staying away from the old way. Even though HTML, CSS, and Javascript
+        were the most chosen method of building websites in the past, React.js
+        has become the most popular library now.
+      </p>
+      <p class="references">
+        Source. (n.d.). React.js Logo [Illustration]. Retrieved April 12, 2022.
+        https://en.wikipedia.org/wiki/React_(JavaScript_library)
+      </p>
+    </main>
+  </body>
+</html>
