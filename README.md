@@ -23,4 +23,4 @@ When you write and edit your blog posts, consider writing for your persona.
 
 Please describe how/where to access or run your website:
 
-Netflify
+You can access the website on [here](https://quizzical-mclean-ddc177.netlify.app/).
