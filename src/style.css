@@ -140,6 +140,7 @@ figcaption {
   align-items: stretch;
   margin-bottom: 16px;
   flex-basis: 440px;
+  color: black;
 }
 
 .post img {
